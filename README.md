@@ -25,12 +25,8 @@ Files in this repository:
 * ```LICENSE```: the license of the DASH dataset and the associated code.
 * ```data/v1.0/dash_{dn,ea,nft}.json```: the DASH dataset.
 * ```conventional.py```: the code for training and evaluating conventional models. The code has been tested with Python 3.7.1, Scikit-learn 0.20.2, and XGBoost 1.5.1. 
+* ```neural.ipynb```: a Colab adaptation of vanilla mBERT and mBERT+. Note that the code is non-deterministic due to GPU non-determinism. 
 * ```features.json```: pre-extracted features for assets in DASH, including vocabulary, number of tokens, trademark, and TLD count.
 * ```misc/adult_keywords```: the adult word and phrase list used in the paper.
 
 
-**TODO**:
-
-- [x] Release the DASH dataset.
-- [x] Release conventional models.
-- [ ] Release vanilla mBERT and mBERT+.
